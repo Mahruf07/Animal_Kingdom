@@ -1,4 +1,10 @@
 package org.example;
 
-public class Camel {
+public class Camel extends Mammal{
+    public Camel(double weight) {
+        super(weight);
+    }
+    public void growHair(){
+        System.out.println("Camel hair");
+    }
 }

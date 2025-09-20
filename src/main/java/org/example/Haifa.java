@@ -5,22 +5,22 @@ package org.example;
 public class Haifa {
     public static void main(String[] args) {
 
-//        Cow cow = new Cow(100);
-//        Camel camel = new Camel(200);
-//
-//        Turtle turtle = new Turtle(50);
-//        Crocodile crocodile = new Crocodile(100);
-//
-//        Shark shark = new Shark(400);
-//        Tuna tuna = new Tuna(500);
-//
-//        Animal[] animals = new Animal[]{cow, camel, turtle, crocodile, shark, tuna};
-//        System.out.println("------------------- Breathe Start -------------------");
-//        for(Animal animal : animals){
-//            animal.breathe();
-//            System.out.println(animal.getWeight());
-//        }
-//        System.out.println("------------------ Breathe End ---------------------\n");
+        Cow cow = new Cow(100);
+        Camel camel = new Camel(200);
+
+        Turtle turtle = new Turtle(50);
+        Crocodile crocodile = new Crocodile(100);
+
+        Shark shark = new Shark(400);
+        Tuna tuna = new Tuna(500);
+
+        Animal[] animals = new Animal[]{cow, camel, turtle, crocodile, shark, tuna};
+        System.out.println("------------------- Breathe Start -------------------");
+        for(Animal animal : animals){
+            animal.breathe();
+            System.out.println(animal.getWeight());
+        }
+        System.out.println("------------------ Breathe End ---------------------\n");
 //
 //        Mammal[] mammals = new Mammal[]{cow, camel};
 //        System.out.println("------------------- Hair Start --------------------");

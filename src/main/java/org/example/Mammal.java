@@ -9,4 +9,6 @@ public abstract class Mammal extends Animal{
     public void breathe() {
         System.out.println("Mammal breath");
     }
+
+    public abstract void growHair();
 }

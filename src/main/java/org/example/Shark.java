@@ -1,4 +1,7 @@
 package org.example;
 
-public class Shark {
+public class Shark extends Fish{
+    public Shark(double weight) {
+        super(weight);
+    }
 }
