@@ -7,4 +7,5 @@ public class Camel extends Mammal{
     public void growHair(){
         System.out.println("Camel hair");
     }
+
 }

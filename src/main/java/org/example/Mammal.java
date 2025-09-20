@@ -1,6 +1,6 @@
 package org.example;
 
-public abstract class Mammal extends Animal{
+public abstract class Mammal extends Animal implements Walkable{
     public Mammal(double weight) {
         super(weight);
     }
@@ -11,4 +11,10 @@ public abstract class Mammal extends Animal{
     }
 
     public abstract void growHair();
+
+    @Override
+    public void walk(){
+        System.out.println("Mammal is walking...");
+    }
+
 }

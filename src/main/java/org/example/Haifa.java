@@ -21,41 +21,41 @@ public class Haifa {
             System.out.println(animal.getWeight());
         }
         System.out.println("------------------ Breathe End ---------------------\n");
-//
-//        Mammal[] mammals = new Mammal[]{cow, camel};
-//        System.out.println("------------------- Hair Start --------------------");
-//        for(Mammal mammal : mammals){
-//            mammal.growHair();
-//        }
-//        System.out.println("------------------- Hair End ----------------------\n");
-//
-//        Reptile[] reptiles = new Reptile[]{turtle, crocodile};
-//        System.out.println("------------------- Bask Start --------------------");
-//        for(Reptile reptile : reptiles){
-//            reptile.baskInSun();
-//        }
-//        System.out.println("------------------- Bask End ----------------------\n");
-//
-//        Fish[] fishes = new Fish[]{shark, tuna};
-//        System.out.println("------------------- Eggs Start --------------------");
-//        for(Fish fish : fishes){
-//            fish.layEggs();
-//        }
-//        System.out.println("------------------- Eggs End ----------------------\n");
-//
-//
-//        Swimmable[] swimmables = new Swimmable[]{turtle, crocodile, shark, tuna};
-//        System.out.println("------------------- Swim Start --------------------");
-//        for(Swimmable swimmable : swimmables){
-//            swimmable.swim();
-//        }
-//        System.out.println("------------------- Swim  End  --------------------\n");
-//
-//        Walkable[] walkables = new Walkable[]{cow, camel, turtle, crocodile};
-//        System.out.println("------------------- Walk Start --------------------");
-//        for(Walkable walkable : walkables){
-//            walkable.walk();
-//        }
-//        System.out.println("------------------- Walk  End  --------------------\n");
+
+        Mammal[] mammals = new Mammal[]{cow, camel};
+        System.out.println("------------------- Hair Start --------------------");
+        for(Mammal mammal : mammals){
+            mammal.growHair();
+        }
+        System.out.println("------------------- Hair End ----------------------\n");
+
+        Reptile[] reptiles = new Reptile[]{turtle, crocodile};
+        System.out.println("------------------- Bask Start --------------------");
+        for(Reptile reptile : reptiles){
+            reptile.baskInSun();
+        }
+        System.out.println("------------------- Bask End ----------------------\n");
+
+        Fish[] fishes = new Fish[]{shark, tuna};
+        System.out.println("------------------- Eggs Start --------------------");
+        for(Fish fish : fishes){
+            fish.layEggs();
+        }
+        System.out.println("------------------- Eggs End ----------------------\n");
+
+
+        Swimmable[] swimmables = new Swimmable[]{turtle, crocodile, shark, tuna};
+        System.out.println("------------------- Swim Start --------------------");
+        for(Swimmable swimmable : swimmables){
+            swimmable.swim();
+        }
+        System.out.println("------------------- Swim  End  --------------------\n");
+
+        Walkable[] walkables = new Walkable[]{cow, camel, turtle, crocodile};
+        System.out.println("------------------- Walk Start --------------------");
+        for(Walkable walkable : walkables){
+            walkable.walk();
+        }
+        System.out.println("------------------- Walk  End  --------------------\n");
     }
 }
